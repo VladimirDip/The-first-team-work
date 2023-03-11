@@ -1,0 +1,45 @@
+@font-face {
+    font-family: "HelveticaNeueCyr";
+    src: url("./HelveticaNeueCyr-Roman.woff") format("woff"), url("./HelveticaNeueCyr-Roman.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "HelveticaNeueCyr";
+    src: url("./HelveticaNeueCyr-Bold.woff") format("woff"), url("./HelveticaNeueCyr-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "NeueMachina";
+    src: url("./NeueMachina-Light.woff") format("woff"), url("./NeueMachina-Light.woff2") format("woff2");
+    font-weight: 200;
+    font-style: normal;
+}
+@font-face {
+    font-family: "NeueMachina";
+    src: url("./NeueMachina-Regular.woff") format("woff"), url("./NeueMachina-Regular.woff2") format("woff2");
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: "NeueMachina";
+    src: url("./NeueMachina-Medium.woff") format("woff"), url("./NeueMachina-Medium.woff2") format("woff2");
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: "NeueMachina";
+    src: url("./NeueMachina-Bold.woff") format("woff"), url("./NeueMachina-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("./Roboto-Bold.woff") format("woff"), url("./Roboto-Bold.woff2") format("woff2");
+    font-weight: 700;
+    font-style: normal;
+}
+
