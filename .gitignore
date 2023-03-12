@@ -84,3 +84,5 @@ Thumbs.db
 *.log*
 node_modules/
 dist
+
+.editorconfig
