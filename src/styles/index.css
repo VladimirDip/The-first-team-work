@@ -11,5 +11,10 @@
 /* Main */
 @import url('../blocks/main/main.css');
 
+/* Main */
+@import url('../blocks/design-interior/design-interior.css');
+@import url('../blocks/page/__design-interior/page__design-interior.css');
+@import url('../blocks/design-interior/__background/design-interior__background.css');
+
 /* Footer */
 @import url('../blocks/footer/footer.css');
