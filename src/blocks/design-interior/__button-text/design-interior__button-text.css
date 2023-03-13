@@ -1,0 +1,10 @@
+.design-interior__button-text {
+    margin: 0;
+    font-family: 'HelveticaNeueCyr', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 97%;
+    text-transform: uppercase;
+    display: flex;
+    align-content: center;
+}

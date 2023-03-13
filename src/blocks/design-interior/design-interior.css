@@ -3,20 +3,9 @@
     max-width: 1600px;
     min-height: 920px;
     /*position: relative;*/
+    display: flex;
+    flex-direction: column;
 }
 
 
 
-/*
-.design-interior::after {
-    content: '';
-    position: absolute;
-    background: url("../../images/background.png") no-repeat center;
-    !*background-size: cover;*!
-    !*min-width: 100%;*!
-    !*min-height: 100%;*!
-    opacity: .8;
-    z-index: -1;
-    inset: 0;
-
-}*/

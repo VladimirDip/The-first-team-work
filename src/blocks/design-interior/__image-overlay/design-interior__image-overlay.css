@@ -1,0 +1,5 @@
+.design-interior__image-overlay {
+    max-width: 487px;
+    max-height: 624px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+}
