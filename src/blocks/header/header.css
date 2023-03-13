@@ -6,6 +6,6 @@
   padding-top: 27px;
   padding-left: 42px;
   padding-right: 42px;
-  align-items: center;
-  outline: 1px solid red;
+  justify-content: space-between;
+  box-sizing: border-box;
 }
