@@ -1,0 +1,14 @@
+.burger-overlay__exit {
+  width: 66px;
+  height: 66px;
+  background: url(../../../images/burger.svg) center / contain no-repeat;
+  border: none;
+  transition: opacity 0.3s ease-in-out;
+}
+
+@media (hover: hover) {
+  .burger-overlay__exit:hover {
+    cursor: pointer;
+    opacity: 0.7;
+  }
+}
