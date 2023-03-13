@@ -9,11 +9,12 @@
   letter-spacing: 0.03em;
   text-align: left;
   color: #ffffff40;
-  transition: color .3s ease-in-out;
+  transition: color 0.3s ease-in-out;
 }
 
 @media (hover: hover) {
-  .burger-overlay__grid-item:hover > .burger-overlay__grid-link, .burger-overlay__grid-item:hover::marker {
+  .burger-overlay__grid-item:hover > .burger-overlay__grid-link,
+  .burger-overlay__grid-item:hover::marker {
     color: #fff;
   }
 }

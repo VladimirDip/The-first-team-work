@@ -10,5 +10,5 @@
   position: absolute;
   top: 150%;
   transform: rotateZ(90deg) translate(10px, 10px);
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
 }

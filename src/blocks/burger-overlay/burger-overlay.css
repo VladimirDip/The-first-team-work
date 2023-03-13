@@ -1,6 +1,6 @@
 .burger-overlay {
   width: 100%;
-  transition: all .3s ease-in-out;
+  transition: all 0.3s ease-in-out;
   box-sizing: border-box;
   padding: 27px 42px 38px;
   display: flex;
