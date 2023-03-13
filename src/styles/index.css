@@ -17,6 +17,7 @@
 @import url('../blocks/header/__phone-number/header__phone-number.css');
 @import url('../blocks/header/__consult-btn/header__consult-btn.css');
 @import url('../blocks/header/__burger-btn/header__burger-bnt.css');
+@import url('../blocks/header/__container/header__container.css');
 /* Main */
 @import url('../blocks/main/main.css');
 
