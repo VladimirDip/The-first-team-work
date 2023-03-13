@@ -5,4 +5,12 @@
   background-image: url('../../../images/burger-icon-1600.svg');
   width: 73px;
   height: 74px;
+  transition: opacity .3s ease-in-out;
+}
+
+@media (hover: hover) {
+  .header__burger-btn:hover {
+    opacity: .7;
+    cursor: pointer;
+  }
 }

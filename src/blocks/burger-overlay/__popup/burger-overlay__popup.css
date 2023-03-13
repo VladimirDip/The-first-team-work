@@ -1,0 +1,8 @@
+.burger-overlay__popup {
+  width: 100%;
+  max-width: 835px;
+  margin: 0 auto;
+  background: url(../../../images/Vector.svg) no-repeat center / contain;
+  padding: 130px 0;
+  box-sizing: border-box;
+}

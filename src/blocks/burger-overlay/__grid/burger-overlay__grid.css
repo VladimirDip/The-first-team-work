@@ -1,0 +1,6 @@
+.burger-overlay__grid {
+  display: grid;
+  grid-template-columns: repeat(2, min-content);
+  gap: 25px 150px;
+  place-content: center;
+}

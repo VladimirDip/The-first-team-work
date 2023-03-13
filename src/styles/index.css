@@ -22,3 +22,13 @@
 
 /* Footer */
 @import url('../blocks/footer/footer.css');
+
+/* BURGER OVERLAY */
+@import url(../blocks/burger-overlay/burger-overlay.css);
+@import url(../blocks/burger-overlay/__header/burger-overlay__header.css);
+@import url(../blocks/burger-overlay/__exit/burger-overlay__exit.css);
+@import url(../blocks/burger-overlay/__popup/burger-overlay__popup.css);
+@import url(../blocks/burger-overlay/__grid/burger-overlay__grid.css);
+@import url(../blocks/burger-overlay/__grid-item/burger-overlay__grid-item.css);
+@import url(../blocks/burger-overlay/grid-link/burger-overlay__grid-link.css);
+@import url(../blocks/burger-overlay/__copyright/burger-overlay__copyright.css);
