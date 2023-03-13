@@ -1,15 +1,9 @@
 .burger-overlay {
-  min-height: 100vh;
   width: 100%;
-  position: fixed;
-  top: 0;
-  left: 0;
-  visibility: hidden;
-  opacity: 0;
   transition: all .3s ease-in-out;
   box-sizing: border-box;
   padding: 27px 42px 38px;
   display: flex;
   flex-direction: column;
-  gap: 50px;
+  gap: 57px;
 }

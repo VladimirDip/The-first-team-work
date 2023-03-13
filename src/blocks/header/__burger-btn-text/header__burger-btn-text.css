@@ -1,0 +1,14 @@
+.header__burger-btn-text {
+  text-transform: uppercase;
+  font-family: HelveticaNeueCyr;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  text-align: left;
+  color: #fff;
+  position: absolute;
+  top: 150%;
+  transform: rotateZ(90deg) translate(10px, 10px);
+  transition: all .3s ease-in-out;
+}

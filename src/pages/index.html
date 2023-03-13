@@ -7,6 +7,7 @@
     content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <link href="../styles/index.css" rel="stylesheet">
   <link rel="shortcut icon" href="../images/favicon.svg" type="image/x-icon">
+  <script src="../scripts/index.js" defer></script>
   <title>VR-project</title>
 </head>
 
@@ -24,7 +25,9 @@
       <div class="header__container">
         <p class="text header__phone-number">+7 928 123 45 67</p>
         <button type="button" class="text header__consult-btn">Получить консультацию</button>
-        <button class="header__burger-btn" type="button"></button>
+        <button class="header__burger-btn" type="button">
+          <p class="header__burger-btn-text text hidden">Закрыть</p>
+        </button>
       </div>
     </header>
 
@@ -39,12 +42,7 @@
 
     </footer>
   </div>
-  <section class="burger-overlay">
-    <div class="burger-overlay__header">
-      <img src="../images/header__logo.svg" alt="Лого проекта" class="header__logo header__logo_place_burger-overlay">
-      <button type="button" aria-label="exit" class="burger-overlay__exit text">
-      </button>
-    </div>
+  <section class="burger-overlay hidden">
     <nav class="burger-overlay__popup">
       <ol class="burger-overlay__grid text">
         <li class="burger-overlay__grid-item"><a href="#" class="burger-overlay__grid-link">Главная</a></li>
