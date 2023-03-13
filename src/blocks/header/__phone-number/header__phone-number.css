@@ -1,0 +1,10 @@
+.header__phone-number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 21px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-color);
+  padding-right: 51px;
+}
