@@ -1,77 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport"
-        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <link href="../styles/index.css" rel="stylesheet">
-  <title>VR-project</title>
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link href="../styles/index.css" rel="stylesheet" />
+    <title>VR-project</title>
+  </head>
 
-<body class="page">
-<div class="page__container">
-  <header class="header">
-    <img src="../images/header__logo.svg" alt="Лого проекта" class="header__logo">
-    <ul class="header__lang-link-list">
-      <li><a href="#" class="text header__lang-link header__lang-link_active">en</a></li>
-      <li><a href="#" class="text header__lang-link ">ру</a></li>
-    </ul>
-    <p class="text header__phone-number">+7 928 123 45 67</p>
-    <button type="button" class="text header__consult-btn">Получить консультацию</button>
-    <button class="header__burger-btn" type="button"></button>
-  </header>
+  <body class="page">
+    <div class="page__container">
+      <header class="header">
+        <img
+          class="header__logo"
+          src="../images/header__logo.svg"
+          alt="Лого проекта"
+        />
+        <ul class="header__lang-link-list">
+          <li>
+            <a class="text header__lang-link header__lang-link_active" href="#"
+              >en</a
+            >
+          </li>
+          <li><a class="text header__lang-link" href="#">ру</a></li>
+        </ul>
+        <p class="text header__phone-number">+7 928 123 45 67</p>
+        <button class="text header__consult-btn" type="button">
+          Получить консультацию
+        </button>
+        <button class="header__burger-btn" type="button"></button>
+      </header>
 
-  <main class="main">
+      <main class="main">
+        <section class="design-interior page__design-interior">
+          <div class="design-interior__central-container">
+            <ul class="counter_pages">
+              <li class="counter_pages__current-page"></li>
+              <li class="counter_pages__all-pages"></li>
+            </ul>
+            <article class="design-interior__topic">
+              <h1 class="design-interior__title">
+                Дизайн интерьера частной квартиры
+              </h1>
+              <p class="design-interior__text">
+                Инновационный квартал Премиального уровня с авторской
+                архитектурой и современными технологиями на берегу реки Москвы.
+              </p>
+              <p
+                class="design-interior__text design-interior__text_change_view"
+              >
+                Выполнение Дизайн проекта в VR, Инженерный проект, Комплектация
+                объекта, Выполнение отделочных работ
+              </p>
+              <p class="design-interior__button-text">
+                Подробнее
+                <button class="design-interior__button"></button>
+              </p>
+            </article>
 
-    <section class="design-interior page__design-interior">
-      <div class="design-interior__central-container">
-        <div class="counter_pages">
-          <div class="counter_pages__current-page"></div>
-          <div class="counter_pages__all-pages"></div>
-        </div>
+            <div class="design-interior__image-overlay">
+              <img
+                class="design-interior__image"
+                src="../images/design-interior_bed.jpg"
+                alt="кровать"
+              />
+            </div>
+          </div>
 
-        <article class="design-interior__topic">
-          <h1 class="design-interior__title">Дизайн интерьера
-                                             частной квартиры</h1>
-          <p class="design-interior__text">Инновационный квартал Премиального уровня с
-                                           авторской архитектурой и современными
-                                           технологиями на берегу реки Москвы.</p>
-          <p class="design-interior__text
-           design-interior__text_change_view">Выполнение Дизайн проекта в VR, Инженерный
-                                              проект, Комплектация объекта, Выполнение
-                                              отделочных работ
-          </p>
-          <p class="design-interior__button-text">Подробнее
-            <button class="design-interior__button"></button>
-          </p>
-        </article>
+          <div class="design-interior__footer">
+            <div class="design-interior__container-preview">
+              <img
+                class="design-interior__preview"
+                src="../images/design-interior_preview.jpg"
+                alt="квартира"
+              />
 
-        <img class="design-interior__image" src="../images/design-interior_bed.jpg"
-             alt="кровать">
+              <button class="design-interior__play"></button>
+            </div>
 
-      </div>
+            <div class="arrow-container">
+              <button class="arrow-container_left"></button>
 
-      <div class="design-interior__footer">
-        <div class="design-interior__container-preview">
-          <img class="design-interior__preview"
-               src="../images/design-interior_preview.jpg"
-               alt="квартира">
+              <button class="arrow-container_right"></button>
+            </div>
+          </div>
+        </section>
+      </main>
 
-          <button class="design-interior__play"></button>
-        </div>
-
-        <div class="arrow-container">
-          <button class="arrow-container_left"></button>
-
-          <button class="arrow-container_right"></button>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <footer class="footer">
-
-  </footer>
-</div>
-</body>
+      <footer class="footer"></footer>
+    </div>
+  </body>
 </html>
