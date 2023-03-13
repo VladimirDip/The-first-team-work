@@ -1,8 +1,8 @@
 :root {
-    --color-darck-blue: #000032;
-    --color-white: #fff;
-    --color-blue: #545454;
-    --main-width-container:1188px;
-    --bg-color: var(--color-darck-blue);
-    --text-color: var(--color-white);
+  --color-darck-blue: #000032;
+  --color-white: #fff;
+  --color-blue: #545454;
+  --main-width-container: 1188px;
+  --bg-color: var(--color-darck-blue);
+  --text-color: var(--color-white);
 }

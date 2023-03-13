@@ -1,8 +1,17 @@
 .header__burger-btn {
   display: flex;
-  background: none;
   border: none;
-  background-image: url('../../../images/burger-icon-1600.svg');
+  background: url('../../../images/burger-icon-1600.svg') no-repeat center /
+    contain;
   width: 73px;
   height: 74px;
+  transition: all 0.3s ease-in-out;
+  position: relative;
+}
+
+@media (hover: hover) {
+  .header__burger-btn:hover {
+    opacity: 0.7;
+    cursor: pointer;
+  }
 }

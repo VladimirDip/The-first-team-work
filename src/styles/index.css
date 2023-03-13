@@ -10,14 +10,19 @@
 @import url("../blocks/page/page.css");
 @import url("../blocks/page/__container/page__container.css");
 /* Header */
-@import url("../blocks/header/header.css");
-@import url("../blocks/header/__lang-link-list/header__lang-link-list.css");
-@import url("../blocks/header/__lang-link/header__lang-link.css");
-@import url("../blocks/header/__lang-link/_active/header__lang-link_active.css");
-@import url("../blocks/header/__logo/header__logo.css");
-@import url("../blocks/header/__phone-number/header__phone-number.css");
-@import url("../blocks/header/__consult-btn/header__consult-btn.css");
-@import url("../blocks/header/__burger-btn/header__burger-bnt.css");
+
+@import url('../blocks/header/header.css');
+@import url('../blocks/header/__lang-link-list/header__lang-link-list.css');
+@import url('../blocks/header/__lang-link/header__lang-link.css');
+@import url('../blocks/header/__lang-link/_active/header__lang-link_active.css');
+@import url('../blocks/header/__logo/header__logo.css');
+@import url('../blocks/header/__phone-number/header__phone-number.css');
+@import url('../blocks/header/__consult-btn/header__consult-btn.css');
+@import url('../blocks/header/__burger-btn/header__burger-bnt.css');
+@import url('../blocks/header/__burger-btn/_type/header__burger-btn_type_exit.css');
+@import url('../blocks/header/__burger-btn-text/header__burger-btn-text.css');
+@import url('../blocks/header/__container/header__container.css');
+
 /* Main */
 @import url("../blocks/main/main.css");
 
@@ -39,7 +44,6 @@
 @import url("../blocks/design-interior/__background/design-interior__background.css");
 
 /* Footer */
-@import url("../blocks/footer/footer.css");
 
 /*Other Blocks*/
 @import url("../blocks/counter_pages/counter_pages.css");
@@ -49,3 +53,18 @@
 @import url("../blocks/arrow-container/arrow-container.css");
 @import url("../blocks/arrow-container/_left/arrow-container_left.css");
 @import url("../blocks/arrow-container/_right/arrow-container_right.css");
+
+/* BURGER OVERLAY */
+@import url(../blocks/burger-overlay/burger-overlay.css);
+@import url(../blocks/burger-overlay/_active/burger-overlay_active.css);
+@import url(../blocks/burger-overlay/__header/burger-overlay__header.css);
+@import url(../blocks/burger-overlay/__exit/burger-overlay__exit.css);
+@import url(../blocks/burger-overlay/__popup/burger-overlay__popup.css);
+@import url(../blocks/burger-overlay/__grid/burger-overlay__grid.css);
+@import url(../blocks/burger-overlay/__grid-item/burger-overlay__grid-item.css);
+@import url(../blocks/burger-overlay/grid-link/burger-overlay__grid-link.css);
+@import url(../blocks/burger-overlay/__copyright/burger-overlay__copyright.css);
+
+/* HIDDEN BLOCKS */
+@import url(../blocks/hidden/hidden.css);
+
