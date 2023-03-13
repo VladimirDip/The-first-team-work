@@ -6,5 +6,5 @@
   padding-top: 27px;
   padding-left: 42px;
   padding-right: 42px;
-  align-items: center;
+  justify-content: space-between;
 }
