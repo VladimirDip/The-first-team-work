@@ -1,0 +1,14 @@
+.complex-vis-frame__pic {
+  display: block;
+  width: 452px;
+  object-fit: contain;
+  margin-top: 9px;
+  margin-left: 22px;
+  z-index: -1;
+}
+
+.complex-vis-frame__pic:nth-of-type(2n) {
+  margin-left: 45px;
+  margin-top: 8px;
+  margin-right: 8px;
+}
