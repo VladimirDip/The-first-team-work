@@ -1,0 +1,15 @@
+.header__lang-link {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 21px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: var(--text-color);
+  opacity: 0.3;
+}
+
+.header__lang-link-list {
+  text-decoration: none;
+}

@@ -1,5 +1,5 @@
 .page__container {
-    margin: 0 auto;
-    padding: 0;
-    max-width: var(--main-width-container);
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1600px;
 }

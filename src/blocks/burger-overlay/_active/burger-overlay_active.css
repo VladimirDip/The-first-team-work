@@ -1,0 +1,4 @@
+.burger-overlay_active {
+  visibility: unset;
+  opacity: 1;
+}
