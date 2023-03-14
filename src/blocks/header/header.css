@@ -3,13 +3,14 @@
   flex-direction: row;
   width: 100%;
   margin: 0;
-  padding-top: 27px;
-  padding-left: 42px;
-  padding-right: 42px;
+  padding: 27px 42px;
   justify-content: space-between;
   box-sizing: border-box;
   position: fixed;
   top: 0;
   left: 0;
   z-index: 50;
+  background: rgba(0, 0, 20, 0.6);
+  box-shadow: 0 5px 10px rgba(30, 79, 198, 0.6);
+  backdrop-filter: blur(20px);
 }
