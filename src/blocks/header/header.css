@@ -9,9 +9,11 @@
   box-sizing: border-box;
   position: fixed;
   top: 0;
-  left: auto;
+  left: 50%;
+  transform: translateX(-50%);
   z-index: 50;
   background: rgba(0, 0, 20, 0.6);
   box-shadow: 0 5px 10px rgba(30, 79, 198, 0.6);
   backdrop-filter: blur(20px);
+  max-width: 1600px;
 }

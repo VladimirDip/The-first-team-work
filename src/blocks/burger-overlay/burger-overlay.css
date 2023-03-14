@@ -4,9 +4,10 @@
   background: rgba(0, 0, 20, 0.95);
   transition: all 0.3s ease-in-out;
   box-sizing: border-box;
-  padding: var(--height-header) 42px 38px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   gap: 57px;
   position: fixed;
   top: 0;
