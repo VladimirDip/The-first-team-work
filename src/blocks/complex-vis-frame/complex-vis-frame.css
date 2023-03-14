@@ -1,0 +1,4 @@
+.complex-vis-frame {
+  display: flex;
+  flex-direction: column;
+}
