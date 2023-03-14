@@ -1,0 +1,7 @@
+.active-link {
+  align-self: center;
+  background: url(../../images/pagination_select.jpg) no-repeat center / cover;
+  height: 38px;
+  width: 4px;
+  border-radius: 3px;
+}

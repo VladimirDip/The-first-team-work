@@ -1,0 +1,8 @@
+.hero__footer-container {
+  grid-area: footer;
+  display: flex;
+  gap: 60px;
+  align-items: center;
+  justify-self: flex-start;
+}
+

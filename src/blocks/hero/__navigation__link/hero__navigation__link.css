@@ -1,0 +1,6 @@
+.hero__navigation-link {
+  display: block;
+  width: 22px;
+  height: 22px;
+  background: url(../../../images/pagination.svg) no-repeat center / cover;
+}
