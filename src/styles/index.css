@@ -34,6 +34,19 @@
 @import url('../blocks/complex-vis-frame/__text-container/complex-vis-frame__text-container.css');
 @import url('../blocks/complex-vis-frame/__title/complex-vis-frame__title.css');
 @import url('../blocks/complex-vis-frame/__subtitle/complex-vis-frame__subtitle.css');
+/* HERO, THE FIRST-PAGE */
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__text-container/hero__text-container.css);
+@import url(../blocks/hero/__navigation/hero__navigation.css);
+@import url(../blocks/hero/__navigation__link/hero__navigation__link.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__title-span-accent/hero__title-span-accent.css);
+@import url(../blocks/hero/__description/hero__description.css);
+@import url(../blocks/hero/__image-container/hero__image-container.css);
+@import url(../blocks/hero/__image-container-vr/hero__image-container-vr.css);
+@import url(../blocks/hero/__footer-container/hero__footer-container.css);
+@import url(../blocks/hero/__footer-btn-link/hero__footer-btn-link.css);
+@import url(../blocks/hero/__footer-link/hero__footer-link.css);
 
 /* Design-interior */
 @import url("../blocks/design-interior/design-interior.css");
@@ -77,3 +90,5 @@
 /* HIDDEN BLOCKS */
 @import url(../blocks/hidden/hidden.css);
 
+/* ACTIVE LINK MIXIN, THE FIRST PAGE NAVIGATION */
+@import url(../blocks/active-link/active-link.css);

@@ -1,0 +1,17 @@
+.hero__footer-link {
+  font-family: HelveticaNeueCyr;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 14px;
+  letter-spacing: 0.08em;
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.hero__footer-link::before {
+  content: "/";
+  color: #1e4fc6;
+  margin-right: 16px;
+}
