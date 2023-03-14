@@ -1,14 +1,16 @@
-@import url('../vendor/normalize.css');
-@import url('../vendor/fonts/fonts.css');
-@import url('../variables/variables.css');
+@import url("../vendor/normalize.css");
+@import url("../vendor/fonts/fonts.css");
+@import url("../variables/variables.css");
+@import url("../vendor/fonts/fonts.css");
 
 /* text */
-@import url('../blocks/text/text.css');
+@import url("../blocks/text/text.css");
 
 /* Page */
-@import url('../blocks/page/page.css');
-@import url('../blocks/page/__container/page__container.css');
+@import url("../blocks/page/page.css");
+@import url("../blocks/page/__container/page__container.css");
 /* Header */
+
 @import url('../blocks/header/header.css');
 @import url('../blocks/header/__lang-link-list/header__lang-link-list.css');
 @import url('../blocks/header/__lang-link/header__lang-link.css');
@@ -20,11 +22,37 @@
 @import url('../blocks/header/__burger-btn/_type/header__burger-btn_type_exit.css');
 @import url('../blocks/header/__burger-btn-text/header__burger-btn-text.css');
 @import url('../blocks/header/__container/header__container.css');
+
 /* Main */
-@import url('../blocks/main/main.css');
+@import url("../blocks/main/main.css");
+
+/* Design-interior */
+@import url("../blocks/design-interior/design-interior.css");
+@import url("../blocks/design-interior/__central-container/design-interior__central-container.css");
+@import url("../blocks/design-interior/__topic/design-interior__topic.css");
+@import url("../blocks/design-interior/__title/design-interior__title.css");
+@import url("../blocks/design-interior/__text/design-interior__text.css");
+@import url("../blocks/design-interior/__text/_change/design-interior__text_change_view.css");
+@import url("../blocks/design-interior/__button-text/design-interior__button-text.css");
+@import url("../blocks/design-interior/__button/design-interior__button.css");
+@import url("../blocks/design-interior/__image-overlay/design-interior__image-overlay.css");
+@import url("../blocks/design-interior/__image/design-interior__image.css");
+@import url("../blocks/design-interior/__footer/design-interior__footer.css");
+@import url("../blocks/design-interior/__container-preview/design-interior__container-preview.css");
+@import url("../blocks/design-interior/__play/design-interior__play.css");
+@import url("../blocks/page/__design-interior/page__design-interior.css");
+@import url("../blocks/design-interior/__background/design-interior__background.css");
 
 /* Footer */
-@import url('../blocks/footer/footer.css');
+
+/*Other Blocks*/
+@import url("../blocks/counter_pages/counter_pages.css");
+@import url("../blocks/counter_pages/__current-page/counter-pages__current-page.css");
+@import url("../blocks/counter_pages/__all-pages/counter-pages__all-pages.css");
+
+@import url("../blocks/arrow-container/arrow-container.css");
+@import url("../blocks/arrow-container/_left/arrow-container_left.css");
+@import url("../blocks/arrow-container/_right/arrow-container_right.css");
 
 /* BURGER OVERLAY */
 @import url(../blocks/burger-overlay/burger-overlay.css);
@@ -39,3 +67,4 @@
 
 /* HIDDEN BLOCKS */
 @import url(../blocks/hidden/hidden.css);
+

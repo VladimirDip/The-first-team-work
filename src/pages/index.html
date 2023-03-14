@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en" dir="ltr">
   <head>
     <meta charset="UTF-8" />
@@ -48,11 +49,64 @@
       </header>
 
       <main class="main">
-        <section class="design-interior"></section>
+        <section class="design-interior page__design-interior">
+          <div class="design-interior__central-container">
+            <ul class="counter_pages">
+              <li class="counter_pages__current-page"></li>
+              <li class="counter_pages__all-pages"></li>
+            </ul>
+            <article class="design-interior__topic">
+              <h1 class="design-interior__title">
+                Дизайн интерьера частной квартиры
+              </h1>
+              <p class="design-interior__text">
+                Инновационный квартал Премиального уровня с авторской
+                архитектурой и современными технологиями на берегу реки Москвы.
+              </p>
+              <p
+                class="design-interior__text design-interior__text_change_view"
+              >
+                Выполнение Дизайн проекта в VR, Инженерный проект, Комплектация
+                объекта, Выполнение отделочных работ
+              </p>
+              <p class="design-interior__button-text">
+                Подробнее
+                <button class="design-interior__button"></button>
+              </p>
+            </article>
+
+            <div class="design-interior__image-overlay">
+              <img
+                class="design-interior__image"
+                src="../images/design-interior_bed.jpg"
+                alt="кровать"
+              />
+            </div>
+          </div>
+
+          <div class="design-interior__footer">
+            <div class="design-interior__container-preview">
+              <img
+                class="design-interior__preview"
+                src="../images/design-interior_preview.jpg"
+                alt="квартира"
+              />
+
+              <button class="design-interior__play"></button>
+            </div>
+
+            <div class="arrow-container">
+              <button class="arrow-container_left"></button>
+
+              <button class="arrow-container_right"></button>
+            </div>
+          </div>
+        </section>
       </main>
 
       <footer class="footer"></footer>
     </div>
+
     <section class="burger-overlay hidden">
       <nav class="burger-overlay__popup">
         <ol class="burger-overlay__grid text">
@@ -88,7 +142,7 @@
           </li>
         </ol>
       </nav>
-      <p class="burger-overlay__copyright text">&copy;2023 vr-design</p>
+      <!--      <p class="burger-overlay__copyright text">&copy;2023 vr-design</p>-->
     </section>
   </body>
 </html>
