@@ -34,7 +34,10 @@
 @import url('../blocks/complex-vis-frame/__text-container/complex-vis-frame__text-container.css');
 @import url('../blocks/complex-vis-frame/__title/complex-vis-frame__title.css');
 @import url('../blocks/complex-vis-frame/__subtitle/complex-vis-frame__subtitle.css');
-
+@import url('../blocks/complex-vis-frame/__images-container/complex-vis-frame__images-container.css');
+@import url('../blocks/complex-vis-frame/__pic-container/complex-vis-frame__pic-container.css');
+@import url('../blocks/complex-vis-frame/__pic/complex-vis-frame__pic.css');
+@import url('../blocks/complex-vis-frame/__pic-caption/complex-vis-frame__pic-caption.css');
 /* Design-interior */
 @import url("../blocks/design-interior/design-interior.css");
 @import url("../blocks/design-interior/__central-container/design-interior__central-container.css");
