@@ -5,6 +5,7 @@
 
 /* text */
 @import url("../blocks/text/text.css");
+@import url("../blocks/text/_weight/text_weight_700.css");
 
 /* Page */
 @import url("../blocks/page/page.css");
@@ -25,6 +26,14 @@
 
 /* Main */
 @import url("../blocks/main/main.css");
+
+
+/* Complex visualisation frame */
+@import url('../blocks/page/__complex-vis-frame/page__complex-vis-frame.css');
+@import url('../blocks/complex-vis-frame/complex-vis-frame.css');
+@import url('../blocks/complex-vis-frame/__text-container/complex-vis-frame__text-container.css');
+@import url('../blocks/complex-vis-frame/__title/complex-vis-frame__title.css');
+@import url('../blocks/complex-vis-frame/__subtitle/complex-vis-frame__subtitle.css');
 
 /* Design-interior */
 @import url("../blocks/design-interior/design-interior.css");
