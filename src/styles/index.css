@@ -23,6 +23,7 @@
 @import url('../blocks/header/__burger-btn/_type/header__burger-btn_type_exit.css');
 @import url('../blocks/header/__burger-btn-text/header__burger-btn-text.css');
 @import url('../blocks/header/__container/header__container.css');
+@import url('../blocks/header/__content/header__content.css');
 
 /* Main */
 @import url("../blocks/main/main.css");
