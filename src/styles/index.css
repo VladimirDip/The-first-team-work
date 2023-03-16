@@ -82,6 +82,9 @@
 @import url("../blocks/arrow-container/_left/arrow-container_left.css");
 @import url("../blocks/arrow-container/_right/arrow-container_right.css");
 
+/* OVERLAY GENERAL */
+@import url(../blocks/overlay/overlay.css);
+
 /* BURGER OVERLAY */
 @import url(../blocks/burger-overlay/burger-overlay.css);
 @import url(../blocks/burger-overlay/_active/burger-overlay_active.css);
@@ -93,8 +96,14 @@
 @import url(../blocks/burger-overlay/grid-link/burger-overlay__grid-link.css);
 @import url(../blocks/burger-overlay/__copyright/burger-overlay__copyright.css);
 
+/* FORM OVERLAY */
+@import url(../blocks/form-overlay/form-overlay.css);
+
 /* HIDDEN BLOCKS */
 @import url(../blocks/hidden/hidden.css);
 
 /* ACTIVE LINK MIXIN, THE FIRST PAGE NAVIGATION */
 @import url(../blocks/active-link/active-link.css);
+
+/* COPIED POPUP */
+@import url(../blocks/copied-popup/copied-popup.css);

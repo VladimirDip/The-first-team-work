@@ -13,5 +13,16 @@
   background: rgba(0, 0, 20, 0.6);
   box-shadow: 0 5px 10px rgba(30, 79, 198, 0.6);
   backdrop-filter: blur(20px);
+  transition: all .3s ease-in-out;
   
+}
+
+.header_place_popup {
+  box-shadow: unset;
+  background: #000032;
+}
+
+.header_place_burger {
+  box-shadow: unset;
+  background: #000014F2;
 }

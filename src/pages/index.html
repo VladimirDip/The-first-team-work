@@ -161,7 +161,7 @@
       <footer class="footer"></footer>
     </div>
 
-    <section class="burger-overlay hidden">
+    <section class="overlay burger-overlay hidden">
       <nav class="burger-overlay__popup">
         <ol class="burger-overlay__grid text">
           <li class="burger-overlay__grid-item">
@@ -199,10 +199,39 @@
       <!--      <p class="burger-overlay__copyright text">&copy;2023 vr-design</p>-->
     </section>
 
-    <!-- <section class="form-overlay">
-      <button class="form-overlay__exit"></button>
-      <h2 class="form-overlay__title"></h2>
-      <form class="form-overlay__form" id="consultation-form" name="consultation"></form>
-    </section> -->
+    <section class="overlay form-overlay hidden">
+      <div class="overlay-wrapper">
+        <button class="form-overlay__exit"></button>
+        <form class="form-overlay__form" id="consultation-form" name="consultation">
+          <h2 class="text form-overlay__title">Получить консультацию</h2>
+          <fieldset class="form-overlay__inputs">
+            <legend class="text form-overlay__inputs-title">Мы всегда рады обсудить с вами ваш проект или ответить на вопросы.</legend>
+            <label for="name" class="form-overlay__input-label">
+              * Имя
+              <input class="form-overlay__input" type="text" name="name" id="name" class="form-overlay__input" required minlength="2">
+            </label>
+            <label for="phone-number" class="form-overlay__input-label">
+              * Телефон
+              <input class="form-overlay__input" type="tel" name="telelphone" id="phone-number" class="form-overlay__input" required maxlength="13" pattern="(7|8|\+7)9\d{9}$"></label>
+            <label for="email" class="form-overlay__input-label">
+              * E-mail
+              <input class="form-overlay__input" type="email" name="email" id="email" class="form-overlay__input" required>
+            </label>
+            <label for="description" class="form-overlay__input-label">
+              Описание задачи
+              <input class="form-overlay__input" type="text" name="description" id="description" class="form-overlay__input" minlength="20">
+            </label>
+            <label for="overlay-agree" class="checkbox form-overlay__input-label">
+              <input class="form-overlay__input checkbox" type="checkbox" name="agree-with-polytics" id="overlay-agree" required>
+              <p class="text form__overlay-checkbox-text">Я согласен с политикой конфиденциальности</p>
+            </label>
+          </fieldset>
+          <button type="submit" class="form-overlay__submit form-overlay__submit_disabled">Отправить заявку</button>
+        </form>
+      </div>
+    </section>
+
+    <div class="copied-popup">copied!</div>
+
   </body>
 </html>

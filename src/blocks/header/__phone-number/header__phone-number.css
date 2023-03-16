@@ -6,4 +6,12 @@
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-color);
+  transition: all .3s ease-in-out;
+}
+
+@media (hover: hover) {
+  .header__phone-number:hover {
+    opacity: .7;
+    cursor: pointer;
+  }
 }

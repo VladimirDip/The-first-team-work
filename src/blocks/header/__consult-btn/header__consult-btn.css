@@ -16,4 +16,16 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   box-sizing: border-box;
+  transition: all .3s ease-in-out
+}
+
+.remove-effects {
+  opacity: .7;
+}
+
+@media (hover: hover) {
+  .header__consult-btn:not(.remove-effects):hover {
+    cursor: pointer;
+    opacity: .7
+  }
 }

@@ -1,0 +1,14 @@
+.overlay {
+  width: 100%;
+  height: calc(100vh - 128px);
+  top: 128px;
+  background: rgba(0, 0, 20, 0.95);
+  transition: all 0.3s ease-in-out;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  left: 0;
+}
