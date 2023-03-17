@@ -97,7 +97,7 @@ const copyToClipboard = (e) => {
   // we'll use asyncronous method .writeText
   // since it is async => it returns a promise which we have to resolve
   navigator.clipboard.writeText(e.target.textContent)
-  copied.className = 'copied-popup copied-popup_type_resolve copied-popup_show-animation'
+  copied.className = 'copied-popup copied-popup_show-animation'
   setTimeout(() => {
     copied.classList.remove('copied-popup_show-animation')
     copied.classList.add('hidden')

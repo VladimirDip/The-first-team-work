@@ -15,14 +15,7 @@
   font-size: 20px;
   color: #000;
   transition: opacity .3s ease-in-out, visibility .3s ease-in-out, width 1s linear;
-}
-
-.copied-popup_type_resolve {
   background: lightgreen;
-}
-
-.copied-popup_type_reject {
-  background: lightcoral;
 }
 
 .copied-popup_show-animation {
