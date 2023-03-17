@@ -1,6 +1,0 @@
-.complex-vis-frame__text-container {
-  margin: 0 auto;
-  display: grid;
-  grid-template-columns: 650px 540px;
-  z-index: 0;
-}
