@@ -135,9 +135,55 @@
   position: relative;
 }
 
+.header__consult-btn {
+  display: flex;
+  background: none;
+  width: 324px;
+  height: 58px;
+  border: 1px solid var(--text-color);
+  border-radius: 67px;
+  color: var(--text-color);
+  align-items: center;
+  justify-content: center;
+  font-family: 'HelveticaNeueCyr', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 14px;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  transition: all .3s ease-in-out
+}
+
+.remove-effects {
+  opacity: .7;
+}
+
 @media (hover: hover) {
-  .header__burger-btn:hover {
+  .header__burger-btn:hover, .header__consult-btn:not(.remove-effects):hover, .header__phone-number:hover {
     opacity: 0.7;
     cursor: pointer;
   }
+}
+
+.header_place_popup {
+  box-shadow: unset;
+  background: #000032;
+}
+
+.header_place_burger {
+  box-shadow: unset;
+  background: #000014F2;
+}
+
+.header__phone-number {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 21px;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--text-color);
+  transition: all .3s ease-in-out;
 }

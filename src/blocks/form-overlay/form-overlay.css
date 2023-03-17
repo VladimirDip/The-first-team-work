@@ -1,0 +1,159 @@
+.form-overlay {
+  display: flex;
+  background: #e4e7e9;
+  color: #000032;
+  gap: 100px;
+}
+
+.overlay-wrapper {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  gap: 95px;
+}
+
+.form-overlay__exit {
+  width: 100px;
+  height: 58px;
+  border-radius: 30px;
+  border: 1px solid #00003240;
+  background: url(../../images/Union.svg) transparent no-repeat center / 62px;
+  box-sizing: border-box;
+}
+
+.form-overlay__form {
+  width: 100%;
+  max-width: 918px;
+  display: flex;
+  flex-direction: column;
+}
+
+.form-overlay__title {
+  font-size: 52px;
+  font-weight: 400;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 591px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+
+.form-overlay__inputs-title {
+  font-family: HelveticaNeueCyr;
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  max-width: 387px;
+}
+
+.form-overlay__inputs {
+  display: grid;
+  margin: 0;
+  padding: 0;
+  grid-template-areas:
+  "legend legend legend"
+  "name phone email"
+  "description description description"
+  "checkbox checkbox checkbox";
+  border: none;
+  gap: 47px 60px;
+  margin-bottom: 30px;
+}
+
+.form-overlay__input-label {
+  font-family: HelveticaNeueCyr;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.form-overlay__input-label:not(.checkbox) {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-overlay__input-label.checkbox {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  grid-area: checkbox;
+}
+
+.form-overlay__input-label[for="name"] {
+  grid-area: name;
+}
+
+.form-overlay__input-label[for="phone-number"] {
+  grid-area: phone;
+}
+
+.form-overlay__input-label[for="email"] {
+  grid-area: email;
+}
+
+.form-overlay__input-label[for="description"] {
+  grid-area: description;
+}
+
+.form-overlay__input {
+  border: none;
+  border-bottom: 1px solid #00003240;
+  background: none;
+  padding: 10px;
+  font-size: 20px;
+}
+
+.form-overlay__input:not(.checkbox):required:focus:invalid {
+  outline: 1px solid red;
+  border-radius: 10px;
+  border-bottom: unset;
+}
+
+.form-overlay__input:not(.checkbox):required:focus:valid {
+  outline: 1px solid green;
+  border-radius: 10px;
+  border-bottom: unset;
+}
+
+.form-overlay__input:not(.checkbox):focus {
+  outline: 1px solid blue;
+  border-radius: 10px;
+  border-bottom: unset;
+}
+
+.form-overlay__input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+}
+
+.form__overlay-checkbox-text {
+  line-height: 1;
+}
+
+.form-overlay__submit {
+  width: 100%;
+  max-width: 238px;
+  height: 58px;
+  border-radius: 30px;
+  border: none;
+  font-size: 14px;
+  text-transform: uppercase;
+  background: linear-gradient(112.73deg, #1E4FC6 1.67%, #5E1EC6 100%);
+  color: #fff;
+}
+
+.form-overlay__submit_disabled {
+  background: darkgrey;
+}
+
+@media (hover: hover) {
+  .form-overlay__submit:not(.form-overlay__submit_disabled):hover, .form-overlay__exit {
+    opacity: .7;
+    cursor: pointer;
+  }
+}
