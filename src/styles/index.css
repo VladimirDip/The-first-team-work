@@ -12,6 +12,9 @@
 @import url("../blocks/page/__container/page__container.css");
 
 
+/* Arrows */
+@import url('../blocks/arrows/arrows.css');
+
 /* Header */
 @import url('../blocks/header/header.css');
 
