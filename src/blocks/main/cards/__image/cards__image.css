@@ -2,5 +2,6 @@
   padding-bottom: 2px;
   width: 297px;
   height: 326px;
-  object-fit: cover;
+  object-fit: contain;
+  z-index: -1;
 }
