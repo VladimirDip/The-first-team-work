@@ -1,0 +1,8 @@
+.hero__image-container-vr {
+  object-fit: contain;
+  object-position: center;
+  margin: 0;
+  width: 100%;
+  max-width: 615px;
+  height: min-content;
+}

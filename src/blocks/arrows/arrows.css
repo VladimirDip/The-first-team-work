@@ -1,0 +1,53 @@
+.arrows {
+  display: flex;
+  flex-direction: row;
+  object-fit: contain;
+  box-sizing: border-box;
+  width: fit-content;
+  gap: 14px;
+  margin: 0;
+}
+
+.arrows_with-border {
+  border: 1px solid;
+  border-radius: 67px;
+  gap: 82px;
+  min-height: 58px;
+  padding: 0 19px;
+}
+
+.arrows_border-color_grey {
+  border-color: rgba(255, 255, 255, 0.2);
+}
+
+.arrows_border-color_white {
+  border-color: white;
+}
+
+.arrows__caption {
+  font-family: 'HelveticaNeueCyr', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 97%;
+  text-transform: uppercase;
+  display: flex;
+  align-content: center;
+}
+
+
+.arrows__button {
+  padding: 0;
+  background: url("../../images/design-interior_button.png") transparent no-repeat center/ 100%;
+  border: none;
+  display: block;
+  min-width: 62px;
+  background-size: contain;
+}
+
+.arrows__button_left {
+  transform: rotate(180deg);
+}
+
+.arrows__button_grey {
+  opacity: 0.3;
+}
