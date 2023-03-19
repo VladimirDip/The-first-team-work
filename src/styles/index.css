@@ -55,6 +55,9 @@
 @import url("../blocks/page/__design-interior/page__design-interior.css");
 @import url("../blocks/design-interior/__background/design-interior__background.css");
 
+/* section about */
+@import url("../blocks/about/about.css");
+
 /*  section difference-vr*/
 @import url("../blocks/difference-vr/defference-vr.css");
 @import url("../blocks/page/__difference-vr-margin/page__difference-vr-margin.css");
