@@ -7,26 +7,22 @@
 @import url("../blocks/text/text.css");
 @import url("../blocks/text/_weight/text_weight_700.css");
 
-
 /* Page */
 @import url("../blocks/page/page.css");
 @import url("../blocks/page/__container/page__container.css");
 
-
 /* Arrows */
-@import url('../blocks/arrows/arrows.css');
+@import url("../blocks/arrows/arrows.css");
 
 /* Header */
-@import url('../blocks/header/header.css');
-
+@import url("../blocks/header/header.css");
 
 /* Main */
 @import url("../blocks/main/main.css");
 
-
 /* Complex visualisation frame */
-@import url('../blocks/page/__complex-vis-frame/page__complex-vis-frame.css');
-@import url('../blocks/complex-vis-frame/complex-vis-frame.css');
+@import url("../blocks/page/__complex-vis-frame/page__complex-vis-frame.css");
+@import url("../blocks/complex-vis-frame/complex-vis-frame.css");
 
 /* HERO, THE FIRST-PAGE */
 @import url(../blocks/hero/hero.css);
@@ -60,13 +56,8 @@
 @import url("../blocks/design-interior/__background/design-interior__background.css");
 
 /*  section difference-vr*/
-@import url('../blocks/main/difference-vr/difference-vr.css');
-@import url('../blocks/page/__difference-vr-margin/page__difference-vr-margin.css');
-@import url('../blocks/main/cards/cards.css');
-@import url('../blocks/main/difference-vr/__title/difference-vr__title.css');
-@import url('../blocks/main/cards/__title/cards__title.css');
-@import url('../blocks/main/cards/__description/cards__description.css');
-@import url('../blocks/main/cards/__image/cards__image.css');
+@import url("../blocks/difference-vr/defference-vr.css");
+@import url("../blocks/page/__difference-vr-margin/page__difference-vr-margin.css");
 
 /* Footer */
 
