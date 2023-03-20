@@ -54,10 +54,10 @@
   margin: 0;
   padding: 0;
   grid-template-areas:
-  "legend legend legend"
-  "name phone email"
-  "description description description"
-  "checkbox checkbox checkbox";
+    'legend legend legend'
+    'name phone email'
+    'description description description'
+    'checkbox checkbox checkbox';
   border: none;
   gap: 47px 60px;
   margin-bottom: 30px;
@@ -84,19 +84,19 @@
   grid-area: checkbox;
 }
 
-.form-overlay__input-label[for="name"] {
+.form-overlay__input-label[for='name'] {
   grid-area: name;
 }
 
-.form-overlay__input-label[for="phone-number"] {
+.form-overlay__input-label[for='phone-number'] {
   grid-area: phone;
 }
 
-.form-overlay__input-label[for="email"] {
+.form-overlay__input-label[for='email'] {
   grid-area: email;
 }
 
-.form-overlay__input-label[for="description"] {
+.form-overlay__input-label[for='description'] {
   grid-area: description;
 }
 
@@ -126,7 +126,7 @@
   border-bottom: unset;
 }
 
-.form-overlay__input[type="checkbox"] {
+.form-overlay__input[type='checkbox'] {
   width: 20px;
   height: 20px;
 }
@@ -143,7 +143,7 @@
   border: none;
   font-size: 14px;
   text-transform: uppercase;
-  background: linear-gradient(112.73deg, #1E4FC6 1.67%, #5E1EC6 100%);
+  background: linear-gradient(112.73deg, #1e4fc6 1.67%, #5e1ec6 100%);
   color: #fff;
 }
 
@@ -152,8 +152,9 @@
 }
 
 @media (hover: hover) {
-  .form-overlay__submit:not(.form-overlay__submit_disabled):hover, .form-overlay__exit {
-    opacity: .7;
+  .form-overlay__submit:not(.form-overlay__submit_disabled):hover,
+  .form-overlay__exit {
+    opacity: 0.7;
     cursor: pointer;
   }
 }

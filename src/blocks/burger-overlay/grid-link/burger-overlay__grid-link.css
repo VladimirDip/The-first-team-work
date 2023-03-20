@@ -1,11 +1,11 @@
 .burger-overlay__grid-link {
-    font-size: 42px;
-    font-weight: 400;
-    white-space: nowrap;
-    line-height: 55px;
-    letter-spacing: 0.03em;
-    text-align: left;
-    color: rgba(255, 255, 255, 0.62);
-    text-decoration: none;
-    transition: color 0.3s ease-in-out;
+  font-size: 42px;
+  font-weight: 400;
+  white-space: nowrap;
+  line-height: 55px;
+  letter-spacing: 0.03em;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.62);
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
 }

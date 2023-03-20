@@ -2,8 +2,8 @@
   grid-area: text;
   display: grid;
   grid-template-areas:
-  "nav heading"
-  "nav descrip";
+    'nav heading'
+    'nav descrip';
   grid-template-rows: repeat(2, min-content);
   grid-template-columns: min-content 1fr;
   column-gap: 44px;

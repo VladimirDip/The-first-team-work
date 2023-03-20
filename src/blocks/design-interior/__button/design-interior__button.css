@@ -1,8 +1,9 @@
 .design-interior__button {
-    background: url("../../../images/design-interior_button.png") transparent no-repeat center/ 100%;
-    min-width: 62px;
-    background-size: contain;
-    border: none;
-    display: block;
-    margin-left: 14px;
+  background: url('../../../images/design-interior_button.png') transparent
+    no-repeat center/ 100%;
+  min-width: 62px;
+  background-size: contain;
+  border: none;
+  display: block;
+  margin-left: 14px;
 }
