@@ -11,7 +11,7 @@
 }
 
 .hero__footer-link::before {
-  content: "/";
+  content: '/';
   color: #1e4fc6;
   margin-right: 16px;
 }

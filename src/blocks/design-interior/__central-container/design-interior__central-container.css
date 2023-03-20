@@ -1,8 +1,8 @@
 .design-interior__central-container {
-    margin: 0 auto;
-    padding: 0;
-    border-top: rgba(255, 255, 255, .2) solid 1px;
-    border-bottom: rgba(255, 255, 255, .2) solid 1px;
-    display: flex;
-    justify-content: space-around;
+  margin: 0 auto;
+  padding: 0;
+  border-top: rgba(255, 255, 255, 0.2) solid 1px;
+  border-bottom: rgba(255, 255, 255, 0.2) solid 1px;
+  display: flex;
+  justify-content: space-around;
 }

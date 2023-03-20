@@ -1,11 +1,8 @@
 .design-interior {
-    margin: 0 auto;
-    max-width: 1600px;
-    min-height: 920px;
-    /*position: relative;*/
-    display: flex;
-    flex-direction: column;
+  margin: 0 auto;
+  max-width: 1600px;
+  min-height: 920px;
+  /*position: relative;*/
+  display: flex;
+  flex-direction: column;
 }
-
-
-
