@@ -1,0 +1,101 @@
+.docs-n-serts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 1265px;
+  margin: 0 auto;
+}
+
+.docs-n-serts__title {
+  display: flex;
+  font-family: 'NeueMachina', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 97%;
+  color: var(--text-color);
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  width: 100%;
+  min-height: 124px;
+  background-image: url('../../images/docs-n-serts__professionale-caption.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 19px;
+}
+
+.docs-n-serts__docs-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 53px;
+  width: 100%;
+  margin-bottom: 53px;
+}
+
+.docs-n-serts__doc-container {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border: 1px solid #46465b;
+  border-radius: 12px;
+  box-sizing: border-box;
+  align-items: center;
+  background: transparent;
+}
+
+
+.docs-n-serts__doc-container:hover {
+  background: linear-gradient(112.73deg, #1E4FC6 1.67%, #5E1EC6 100%);
+}
+
+.docs-n-serts__doc-container:hover::before{
+  content: '';
+  display: flex;
+  position: absolute;
+  top: 40%;
+  right: auto;
+  background-color: rgba(30, 79, 198, 0.9);
+  background-image: url('../../images/docs-n-serts__eye-icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 122px;
+  height: 122px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.docs-n-serts__doc-number-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 92%;
+}
+
+.docs-n-serts__doc-info {
+  font-family: 'HelveticaNeueCyr';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  margin-bottom: 48px;
+}
+
+.docs-n-serts__doc-picture {
+  display: flex;
+  object-fit: contain;
+  max-width: 256px;
+  margin-bottom: 43px;
+}
+
+
+.docs-n-serts__pagination-container {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+}
