@@ -20,6 +20,10 @@
   padding-left: 76px;
 }
 
+.difference-vr__cards-item {
+  z-index: -1;
+}
+
 .difference-vr__cards-description {
   font-family: "HelveticaNeueCyr";
   font-size: 17px;
@@ -33,7 +37,6 @@
   width: 297px;
   height: 326px;
   object-fit: cover;
-  z-index: -1;
 }
 
 .difference-vr__cards-title {

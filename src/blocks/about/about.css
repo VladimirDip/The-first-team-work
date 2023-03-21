@@ -1,5 +1,7 @@
 .about {
-  background: url(../../images/about.png);
+  display: flex;
+  flex-direction: column;
+  background-image: url(../../images/about.png);
   background-position: right;
   background-repeat: no-repeat;
   background-size: contain;
