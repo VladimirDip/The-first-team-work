@@ -1,9 +1,10 @@
 .about {
   background: url(../../images/about.png);
-  background-position: right bottom;
+  background-position: right;
   background-repeat: no-repeat;
-  min-height: 792px;
+  background-size: contain;
   padding-left: 155px;
+  padding-bottom: 43px;
   z-index: -1;
 }
 
