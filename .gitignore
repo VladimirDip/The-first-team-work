@@ -84,6 +84,12 @@ Thumbs.db
 *.log*
 node_modules/
 dist
+
+
+.editorconfig
+package-lock.json
+package.json
 .*
 package-lock.json
 package.json
+
