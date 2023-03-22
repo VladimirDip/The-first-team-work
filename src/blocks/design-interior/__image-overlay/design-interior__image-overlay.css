@@ -1,13 +1,13 @@
 .design-interior__image-overlay {
-    position: relative;
+  position: relative;
 }
 
 .design-interior__image-overlay:before {
-    content: '';
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    background: rgba(0, 0, 0, .2);
+  content: '';
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.2);
 }

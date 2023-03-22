@@ -34,10 +34,10 @@
   align-content: center;
 }
 
-
 .arrows__button {
   padding: 0;
-  background: url("../../images/design-interior_button.png") transparent no-repeat center/ 100%;
+  background: url('../../images/design-interior_button.png') transparent
+    no-repeat center/ 100%;
   border: none;
   display: block;
   min-width: 62px;

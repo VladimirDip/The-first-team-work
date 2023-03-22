@@ -5,8 +5,8 @@
   place-content: center;
   place-items: center;
   grid-template-areas:
-  "text image"
-  "footer image";
+    'text image'
+    'footer image';
   height: 100vh;
   grid-template-rows: 1fr min-content;
   grid-template-columns: 1fr 2fr;

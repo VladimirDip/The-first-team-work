@@ -57,9 +57,6 @@
   font-size: 22px;
   line-height: 130%;
   letter-spacing: 0.03em;
-  margin: 0 auto;
-  margin-top: -20px;
-  max-width: 303px;
 }
 
 .complex-vis-frame__images-container {
@@ -83,4 +80,14 @@
   margin-left: 45px;
   margin-top: 8px;
   margin-right: 8px;
+}
+
+.complex-vis-frame__card-subtitle-container {
+  display: flex;
+  flex-direction: column;
+  gap: 11px;
+  align-items: baseline;
+  max-width: 303px;
+  margin: 0 auto;
+  margin-top: -33px;
 }
