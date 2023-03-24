@@ -64,6 +64,7 @@
 
 /* Documents and sertificates */
 @import url("../blocks/docs-n-serts/docs-n-serts.css");
+
 /* Footer */
 
 /*Other Blocks*/
@@ -74,7 +75,6 @@
 @import url("../blocks/arrow-container/arrow-container.css");
 @import url("../blocks/arrow-container/_left/arrow-container_left.css");
 @import url("../blocks/arrow-container/_right/arrow-container_right.css");
-
 /* OVERLAY GENERAL */
 @import url(../blocks/overlay/overlay.css);
 
@@ -91,6 +91,9 @@
 
 /* FORM OVERLAY */
 @import url(../blocks/form-overlay/form-overlay.css);
+
+/* Documents and sertificates overlay */
+@import url('../blocks/document-overlay/document-overlay.css');
 
 /* HIDDEN BLOCKS */
 @import url(../blocks/hidden/hidden.css);
