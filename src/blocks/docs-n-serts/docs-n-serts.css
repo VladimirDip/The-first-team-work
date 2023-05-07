@@ -36,7 +36,6 @@
 
 .docs-n-serts__doc-container {
   display: flex;
-  position: relative;
   flex-direction: column;
   border: 1px solid #46465b;
   border-radius: 12px;
@@ -48,6 +47,7 @@
 
 .docs-n-serts__doc-container:hover {
   background: linear-gradient(112.73deg, #1E4FC6 1.67%, #5E1EC6 100%);
+  position: relative;
 }
 
 .docs-n-serts__doc-container:hover::before{

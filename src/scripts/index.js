@@ -85,3 +85,57 @@ const copyToClipboard = (e) => {
 
 headerPhoneNumber.addEventListener('click', copyToClipboard);
 // COPY PHONE NUMBER TO CLIPBOARD   END
+
+const docContainerTemplate = document.querySelector('.docs-n-serts-template').content;
+const docsGrid = document.querySelector('.docs-n-serts__docs-grid');
+const docsImageOverlay = document.querySelector('.document-overlay');
+const docsImageOverlayPic = document.querySelector('.document-overlay__image'); 
+
+function closeDocsImageOverlay(e) {
+  if (e.target === e.currentTarget) e.target.classList.add('hidden')
+}
+
+docsImageOverlay.addEventListener('click', event => closeDocsImageOverlay(event));
+
+function openDocsImageOverlay(src, alt) {
+  docsImageOverlay.classList.remove('hidden')
+  docsImageOverlayPic.alt = alt;
+  docsImageOverlayPic.src = src;
+
+}
+
+const initialDocsInfo = [
+  {
+    docType : 'Cертификат',
+    docId : '88005553535',
+    imageSrc: '../images/docs-n-serts__sertificate.png',
+    imageAlt: 'Сертификат 88005553535'
+  },
+  {
+    docType : 'Cертификат',
+    docId : '88005553536',
+    imageSrc: '../images/docs-n-serts__sertificate.png',
+    imageAlt: 'Сертификат 88005553535'
+  },
+  {
+    docType : 'Cертификат',
+    docId : '78005553535',
+    imageSrc: '../images/docs-n-serts__sertificate.png',
+    imageAlt: 'Сертификат 88005553535'
+  },
+]
+
+
+function createDocContainer(obj) {
+  const docContainer = docContainerTemplate.querySelector('.docs-n-serts__doc-container').cloneNode(true);
+  docContainer.addEventListener('click', () => openDocsImageOverlay(obj.imageSrc, obj.imageAlt));
+  const docContainerImage = docContainer.querySelector('.docs-n-serts__doc-picture');
+  docContainer.querySelector('.docs-n-serts__doc-info_type').textContent = obj.docType;
+  docContainer.querySelector('.docs-n-serts__doc-info_id').textContent = obj.docId;
+  docContainerImage.src = obj.imageSrc;
+  docContainerImage.alt = obj.imageAlt;
+  return docContainer;
+
+}
+
+initialDocsInfo.forEach(element => docsGrid.prepend(createDocContainer(element)));
